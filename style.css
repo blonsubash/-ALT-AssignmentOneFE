@@ -23,8 +23,8 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
-    margin: 80px 730px 80px 730px;
+   width: 400px;
+    margin-top: 50px;
     height: 550px;
     border-radius: 8px;
     padding: 20px;
@@ -100,5 +100,23 @@ input.fields, textarea{
 .main h1{
     text-align: center;
 }
+@media screen and (max-width: 480px){
+    .container{width: 300px;}
+        
+    .fields{width:310px;}
+
+    h1{text-align: center;}
+    
+    .button{width: 320px;}
+   
+    .link{ margin-left: 280px;}
+
+    .links{margin-left: 150px;}
+
+    }
+
+
+    
+
 
 
