@@ -1,6 +1,12 @@
 body{
     background-color: #44BCEE;
 }
+.responsive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 h1{
     font-family: "Roboto";
     word-spacing: 3px;
@@ -21,6 +27,7 @@ h1{
     margin: 80px 730px 80px 730px;
     height: 550px;
     border-radius: 8px;
+    padding: 20px;
 }
 .container img{
      
