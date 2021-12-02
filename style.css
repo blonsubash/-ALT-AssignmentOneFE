@@ -99,7 +99,7 @@ input.fields, textarea{
 }
 
 
-/* Mobile View */
+/* Mobile View */ /*Login and Register*/
 @media screen and (max-width: 480px){
     .container{width: 300px;}
         
@@ -112,15 +112,26 @@ input.fields, textarea{
     .link{ margin-left: 280px;}
 
     .links{margin-left: 150px;}
+     }
 
+@media screen and  (max-width: 1300px){
+    .main{
+        width: 350px;
     }
+    table{
+        width: 350px;
+    }
+
+}
+    
+     
 
 /* Table Content */
 
 table {
     font-family: "Raleway";
     border-collapse: collapse;
-    width: 100%;
+    width: 1200px;
     height: auto;
     background-color:white;
 }
@@ -135,19 +146,25 @@ td, th {
     color: white;
     height: 80px;
   }
+  tbody>tr>:nth-child(1){ text-align: left;}
   tr:nth-child(2) {height: 60px;}
   tr:nth-child(3) {height: 60px; background-color: #44BCEE;}
   tr:nth-child(4) {height: 60px;}
   tr:nth-child(5) {height: 60px;background-color: #44BCEE}
   tr:nth-child(6) {height: 60px;}
   tr:nth-child(7) {height: 60px;background-color: #44BCEE}
-  tr:nth-child(6) {height: 60px;}
+  tr:nth-child(8) {height: 60px;}
   /* Home Page */
   .main{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 1200px;
+      
+      margin: auto;
+    /* margin-left: 400px; */
+    /* margin-right:400px; */
   }
   .home-body{
       background-color: #e6e6e6;
@@ -157,12 +174,8 @@ td, th {
      text-align: center;
      color: #44BCEE;
  }
-.main{
-   
-    width: auto;
-    margin-left: 400px;
-    margin-right:400px;
-}
+
+
 
   
     
