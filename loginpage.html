@@ -13,15 +13,17 @@
     <div class="container">
         
         <img src="./Images/profile blue.png" alt="login">
-        <form class="form" action="./homepage.html">
+        <form name ="loginForm" class="form" id="errorLoginForm">
            
-            <input type="text" class="fields" placeholder="Username" required><br>
+            <input type="text" class="fields" placeholder="Username" name="username" id="usernameBox"><br>
+            <span id="errorUsernameLogin"></span>
             
-            <input type="password" class="fields" placeholder="Password" required><br>
+            <input type="text" class="fields" placeholder="Password" name="password" id="passwordBox" ><br>
+            <span id="errorPasswordLogin"></span>
             
           
               
-                <button type="submit" class="button"> LOGIN</button>
+                <button   id="loginBtn" class="button"> LOGIN</button>
 
             
             
@@ -32,5 +34,7 @@
    
     </div>
 </div>
+<script src="./script.js"></script>
 </body>
+
 </html>

@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <title>Registration</title>
 </head>
+
 <body>
     <div class="responsive">
     <div class="container">
         <h1>Create Account</h1>
-        <form class="form" action="./loginpage.html">
+        <form name="registerForm" class="form" action="./loginpage.html">
            
-            <input type="email" class="fields" placeholder="Email" required><br>
+            <input type="email" class="fields" placeholder="Email" name="email" id="emailBox"><br>
+            <span id="errorEmail"></span>
             
-            <input type="text" class="fields" placeholder="Username" required><br>
+            <input type="text" class="fields" placeholder="Username" name="username" id="usernameBox"><br>
+            <span id="errorUsername"></span>
 
-            <input type="password" class="fields" placeholder="Password" required><br>
+            <input type="password" class="fields" placeholder="Password" name="password" id="passwordBox"><br>
+            <span id="errorPassword"></span>
             
                 
-                <button class="button" type="submit" > REGISTER</button>
+                <button id="registerBtn" class="button"  > REGISTER</button>
           
            
             
@@ -31,5 +35,6 @@
         <a class="link" href="./loginpage.html"> LOGIN</a>
     </div>
 </div>
+<script src="./script.js"></script>
 </body>
 </html>
